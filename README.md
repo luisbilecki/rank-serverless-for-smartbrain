@@ -6,7 +6,7 @@ To deploy these function, I recommend to use [Serverless Framework CLI](https://
 
 ## Deploy process
 
-1. Configure IAM User with correct permissions.
+1. Create IAM User with correct permissions.
 2. Configure serverless using:
 ```
   sls config credentials --provider aws --key <ID> --secret <SECRET>
@@ -20,3 +20,7 @@ To remove function use:
 ```
   sls remove
 ```
+
+### Additional notes
+
+This code is part of the Udemy Course [The Complete Junior to Senior Web Developer](https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap)
